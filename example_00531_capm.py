@@ -1,4 +1,4 @@
-
+import math
 #coding=utf-8
 #Implementiere einen Rentenrechner
 #Anfangskapital: 100
@@ -6,6 +6,14 @@
 #Laufzeit: Jahre
 #Formel für die Zinseszinsrechnung: Anfangskapital * ((1+(Zinsatz/100)) ^ jeweiligen Jahre)
 #Anfangskapital*math.pow(Zinsen,1)
+
+anfangskapital = 100
+zins = 6
+veranlagungszeitraum = 5
+
+for i in range(1, veranlagungszeitraum + 1):
+    kapital = anfangskapital * math.pow(zins, i)
+    print(kapital)
 
 """
 Ergebnis:

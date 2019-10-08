@@ -5,15 +5,15 @@ num_one = 5
 num_two = 1000
 
 if num_one > num_two:
-    print('{} ist größer als {}'. format(str(num_one), str(num_two)))
+    print('{} ist größer als {}'. format(num_one, num_two))
 else:
-    print('{} ist nicht größer als {}'. format(str(num_one), str(num_two)))
+    print('{} ist nicht größer als {}'. format(num_one, num_two))
 
 # prüfe ob beide zahlen gleich sein
 if num_one == num_two:
-    print('{0} ist gleich groß wie {1}'. format(str(num_one), str(num_two)))
+    print('{0} ist gleich groß wie {1}'. format(num_one, num_two))
 else:
-    print('{0} ist nicht gleich groß wie {1}'. format(str(num_one), str(num_two)))
+    print('{0} ist nicht gleich groß wie {1}'. format(num_one, num_two))
 
 # erstelle 2 strings (wörter)    (z.B. Hallo und Tschüss)
 # prüfe ob beide wörter gleich sind

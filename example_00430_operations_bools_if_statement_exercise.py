@@ -27,4 +27,3 @@ elif baby <= age < kid:
     print('kid')
 else:
     print('adult')
-
